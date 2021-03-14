@@ -33,6 +33,7 @@ function InviteForm({ onSuccess, isModalOpen }) {
     if (!isModalOpen) {
       setFromData(defaultFormData);
     }
+    
   }, [isModalOpen]);
 
   const handleFormSubmit = () => {

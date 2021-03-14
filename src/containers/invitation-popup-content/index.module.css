@@ -39,4 +39,10 @@
   .invitationPopupContentWrapper {
     padding: 32px 16px 48px;
   }
+  .successContentWrapper {
+    width: 100%;
+  }
+  .summary {
+    margin:  60px auto;
+  }
 }

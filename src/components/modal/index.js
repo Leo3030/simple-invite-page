@@ -8,6 +8,10 @@ function Modal({ onClose, children, hasMask = true, actived = false }) {
 
   useEffect(() => {
     setIsModalOpen(actived)
+
+    if (!actived) {
+      onClose();
+    }
   }, [actived])
 
   const handleModalClose = () => {

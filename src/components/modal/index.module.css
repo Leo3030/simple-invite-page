@@ -22,11 +22,6 @@
   position: relative;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.actived .contentWrapper {
-  opacity: 1;
 }
 .content {
   position: absolute;

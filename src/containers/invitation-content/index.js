@@ -14,13 +14,13 @@ function InvitationContent() {
         <div className={classes.content}>
           <h2 className={classes.heading}>A better way to enjoy every day</h2>
           <p className={classes.summary}>Be the first to know when we lunch</p>
-          <Button disabled={isModalOpen} onClick={() => {setIsModalOpen(true)}}>Request an invite</Button>
+          <Button disabled={isModalOpen} onClick={() => {setIsModalOpen(true)}} jest-id="request-btn">Request an invite</Button>
         </div>
       </div>
 
-      <Modal actived={isModalOpen} onClose={() => {setIsModalOpen(false)}}>
+      {isModalOpen && <Modal actived={isModalOpen} onClose={() => {setIsModalOpen(false)}}>
         <InvitaionPopupContent onClose={() => {setIsModalOpen(false)}} isModalOpen={isModalOpen}/>
-      </Modal>
+      </Modal>}
     </div>
   );
 }

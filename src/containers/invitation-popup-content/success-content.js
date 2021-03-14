@@ -12,7 +12,7 @@ function SuccessContent({onClose}) {
 
       <p className={classes.summary}>You will be one of the first to experience Broccoli & Co. when we lunch</p>
 
-      <Button className={classes.btn} onClick={onClose}>Ok</Button>
+      <Button className={classes.btn} onClick={onClose}>OK</Button>
     </div>
   );
 }
