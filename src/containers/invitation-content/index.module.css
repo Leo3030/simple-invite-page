@@ -1,0 +1,29 @@
+.contentWrapper {
+  position: relative;
+  height: calc(100vh - 147px);
+  margin: 62px 0 85px;
+  background-color: white;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.content {
+  display: flex;
+  max-width: 980px;
+  height: min-content;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #4c4c4c;
+}
+
+.heading {
+  margin: 0 0 16px;
+}

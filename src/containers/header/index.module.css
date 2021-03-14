@@ -1,0 +1,14 @@
+.headerWrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #e1dcdc;
+  z-index: 10;
+}
+.title {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: #4c4c4c;
+}

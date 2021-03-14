@@ -1,0 +1,23 @@
+.buttonWrapper {
+  margin-top: 16px;
+  padding: 12px 24px;
+  appearance: none;
+  outline: 0;
+  background-color: #4557a1;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.buttonWrapper:hover {
+  background-color: #6376c1;
+}
+.disabled {
+  cursor: not-allowed;
+  background-color: #8c8b8b;
+}
+.disabled:hover {
+  background-color: #8c8b8b;
+}

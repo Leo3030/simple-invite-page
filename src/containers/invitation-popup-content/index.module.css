@@ -1,0 +1,42 @@
+.invitationPopupContentWrapper {
+  padding: 32px 48px 48px;
+}
+.modalTitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4c4c4c;
+  text-align: center;
+  margin: 22px 16px;
+}
+.modalTitle::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 1px;
+  background-color: #4c4c4c;
+  margin: 14px auto 24px;
+}
+.summary {
+  color: #4c4c4c;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  width: 100%;
+}
+.errorMessage {
+  margin: 32px auto 0;
+  color: rgb(187, 0, 0);
+}
+.successContentWrapper {
+  width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .invitationPopupContentWrapper {
+    padding: 32px 16px 48px;
+  }
+}

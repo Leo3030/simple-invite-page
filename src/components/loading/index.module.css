@@ -1,0 +1,26 @@
+.loadingWrapper {
+  position: relative;
+  display: flex;
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+}
+.loadingContent {
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  animation: fade 0.6s infinite alternate;
+}
+.loadingContent2 {animation-delay: 0.2s}
+.loadingContent3 {animation-delay: 0.4s}
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.44;
+  }
+}

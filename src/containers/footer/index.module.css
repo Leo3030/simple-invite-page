@@ -1,0 +1,18 @@
+.footerWrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e1dcdc;
+  z-index: 10;
+}
+.contentWrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: #4c4c4c;
+}
+.footerText {
+  margin: 0;
+  text-align: center;
+}
