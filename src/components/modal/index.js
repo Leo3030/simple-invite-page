@@ -1,15 +1,15 @@
-import React, {useState, useEffect, useRef} from "react";
+import * as React from 'react'
 import classnames from "classnames";
 import classes from "./index.module.css";
 
-function Modal({ onClose, children, hasMask = true, actived = false }) {
-  const [isModalOpen, setIsModalOpen] = useState(actived);
-  const modalRef = useRef();
+function Modal({ children, onClose, hasMask = true, actived = false }) {
+  const [isModalOpen, setIsModalOpen] = React.useState(actived);
+  const modalRef = React.useRef();
 
-  useEffect(() => {
+  React.useEffect(() => {
     setIsModalOpen(actived)
 
-    if (!actived) {
+    if (!actived && onClose) {
       onClose();
     }
   }, [actived])
@@ -28,7 +28,7 @@ function Modal({ onClose, children, hasMask = true, actived = false }) {
 
   return (
     <div className={classnames(classes.modalWrapper, isModalOpen && classes.actived)} onClick={handleModalOutsideClick}>
-      {hasMask && <div className={classes.modalMask}/>}
+      {hasMask && <div className={classes.modalMask} jest-id="modal-mask"/>}
       <div className={classes.contentWrapper}>
         <div className={classes.content} ref={modalRef} >
           {children}

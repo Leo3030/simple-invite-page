@@ -30,10 +30,16 @@ function InviteForm({ onSuccess, isModalOpen }) {
   const [isFetching, setIsFetching] = useState(false);
 
   useEffect(() => {
-    if (!isModalOpen) {
-      setFromData(defaultFormData);
-    }
-    
+    const setData = (isModalOpen) => {
+      if (!isModalOpen) {
+        setFromData(defaultFormData);
+      }
+    };
+    setData(isModalOpen);
+
+    return () => {
+      setData();
+    };
   }, [isModalOpen]);
 
   const handleFormSubmit = () => {

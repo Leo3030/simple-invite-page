@@ -1,18 +1,30 @@
-import { render, mount } from 'enzyme';
-import sinon from 'sinon';
+import { render, fireEvent } from '@testing-library/react';
 import App from "../App";
 
-describe('<App />', () => {
-  it('render request btn', () => {
-    const app = render(<App />);
-    const btn = app.find("[jest-id='request-btn']");
-    
-    expect(btn.length).toEqual(1);
-  });
+test('render page correctly', () => {
+  const {container} = render(<App />);
+  expect(container.querySelector("[jest-id='request-btn']")).toBeInTheDocument();
+  expect(container.querySelector("[jest-id='header']")).toBeInTheDocument();
+  expect(container.querySelector("[jest-id='footer']")).toBeInTheDocument();
+});
 
-  it('show modal when click request btn', () => {
-    const wrapper = mount(<App />);
-    // wrapper.find("[jest-id='request-btn']").simulate('click');
-    // expect(onButtonClick).to.have.property('callCount', 1);
-  });
+test('render page without modal', () => {
+  const {container} = render(<App />);
+  expect(container.querySelector("[jest-id='popup-content']")).toBeNull();
+});
+
+test('show modal when click request btn', () => {
+  const {container} = render(<App />);
+  const btn = container.querySelector("[jest-id='request-btn']");
+  fireEvent.click(btn);
+  expect(container.querySelector("[jest-id='popup-content']")).toBeInTheDocument();
+});
+
+test('hidden modal when click mask', () => {
+  const {container} = render(<App />);
+  const btn = container.querySelector("[jest-id='request-btn']");
+  fireEvent.click(btn);
+  const mask = container.querySelector("[jest-id='modal-mask']");
+  fireEvent.click(mask);
+  expect(container.querySelector("[jest-id='popup-content']")).toBeNull();
 });

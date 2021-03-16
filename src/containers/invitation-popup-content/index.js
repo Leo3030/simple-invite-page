@@ -17,6 +17,10 @@ function InvitaionPopupContent({ onClose, isModalOpen }) {
     onClose();
   };
 
+  const handleSuccess = () => {
+    setStep(inviteStep.SUCCESS);
+  }
+
   return (
     <div
       className={classes.invitationPopupContentWrapper}
@@ -25,9 +29,7 @@ function InvitaionPopupContent({ onClose, isModalOpen }) {
       {step === inviteStep.INVTIE_FORM && (
         <InviteForm
           isModalOpen={isModalOpen}
-          onSuccess={() => {
-            setStep(inviteStep.SUCCESS);
-          }}
+          onSuccess={handleSuccess}
         />
       )}
       {step === inviteStep.SUCCESS && (

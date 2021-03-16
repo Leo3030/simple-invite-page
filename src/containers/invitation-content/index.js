@@ -7,7 +7,6 @@ import InvitaionPopupContent from '~containers/invitation-popup-content';
 function InvitationContent() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
-
   return (
     <div className={classes.contentWrapper}>
       <div className={classes.wrapper}>
