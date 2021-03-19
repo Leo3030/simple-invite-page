@@ -19,7 +19,7 @@ function InvitaionPopupContent({ onClose, isModalOpen }) {
 
   const handleSuccess = () => {
     setStep(inviteStep.SUCCESS);
-  }
+  };
 
   return (
     <div
@@ -27,10 +27,7 @@ function InvitaionPopupContent({ onClose, isModalOpen }) {
       jest-id="popup-content"
     >
       {step === inviteStep.INVTIE_FORM && (
-        <InviteForm
-          isModalOpen={isModalOpen}
-          onSuccess={handleSuccess}
-        />
+        <InviteForm isModalOpen={isModalOpen} onSuccess={handleSuccess} />
       )}
       {step === inviteStep.SUCCESS && (
         <SuccessContent onClose={handleOnClose} />

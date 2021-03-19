@@ -63,7 +63,7 @@ function InviteForm({ onSuccess, isModalOpen }) {
             email: fromData["email"]?.value.trim(),
           }
         )
-        .then(function (response) {
+        .then(function () {
           onSuccess();
           setIsFetching(false);
         })

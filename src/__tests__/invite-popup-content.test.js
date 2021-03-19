@@ -3,7 +3,6 @@ import {
   fireEvent,
   screen,
   findByText,
-  waitFor,
 } from "@testing-library/react";
 import InvitaionPopupContent from "~containers/invitation-popup-content";
 import userEvent from "@testing-library/user-event";
@@ -126,7 +125,7 @@ test("send invite form error", async () => {
   expect(await findByText(container, "Error message from server here.")).toBeVisible();
 });
 
-test("modal will close after click success modal btn", async () => {
+test("handleClose will be called after click success modal btn", async () => {
   axios.post.mockResolvedValue("Registered");
   const handleClose = jest.fn();
   const {container} = render(<InvitaionPopupContent onClose={handleClose}/>);
@@ -146,3 +145,4 @@ test("modal will close after click success modal btn", async () => {
   userEvent.click(screen.getByText("OK"));
   expect(handleClose).toBeCalled();
 });
+

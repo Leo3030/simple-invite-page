@@ -19,7 +19,9 @@ module.exports = {
         "^~containers(.*)$": "<rootDir>/src/containers$1",
         "^~constants(.*)$": "<rootDir>/src/constants$1",
       },
-      "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"]
+      "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"],
+      roots: ["<rootDir>/src/"],
+      coveragePathIgnorePatterns: ["<rootDir>/src/index.js"]
     },
   },
 };

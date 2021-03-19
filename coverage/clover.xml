@@ -1,66 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1616078250068" clover="3.2.0">
-  <project timestamp="1616078250068" name="All files">
-    <metrics statements="97" coveredstatements="94" conditionals="60" coveredconditionals="53" methods="34" coveredmethods="33" elements="191" coveredelements="180" complexity="0" loc="97" ncloc="97" packages="11" files="14" classes="14"/>
+<coverage generated="1616161902972" clover="3.2.0">
+  <project timestamp="1616161902972" name="All files">
+    <metrics statements="96" coveredstatements="96" conditionals="60" coveredconditionals="56" methods="34" coveredmethods="34" elements="190" coveredelements="186" complexity="0" loc="96" ncloc="96" packages="10" files="12" classes="12"/>
     <package name="src">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="app.js" path="/Users/leotang/workspace/simple-invite-page/src/app.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="4" type="stmt"/>
-      </file>
-      <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/index.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.components.button">
       <metrics statements="1" coveredstatements="1" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/components/button/index.js">
         <metrics statements="1" coveredstatements="1" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
-        <line num="13" count="191" type="stmt"/>
+        <line num="13" count="246" type="stmt"/>
       </file>
     </package>
     <package name="src.components.input">
       <metrics statements="5" coveredstatements="5" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/components/input/index.js">
         <metrics statements="5" coveredstatements="5" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
-        <line num="14" count="546" type="stmt"/>
-        <line num="15" count="16" type="cond" truecount="1" falsecount="1"/>
-        <line num="18" count="546" type="stmt"/>
-        <line num="19" count="159" type="cond" truecount="1" falsecount="1"/>
-        <line num="22" count="546" type="stmt"/>
+        <line num="14" count="699" type="stmt"/>
+        <line num="15" count="19" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="699" type="stmt"/>
+        <line num="19" count="207" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="699" type="stmt"/>
       </file>
     </package>
     <package name="src.components.loading">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/components/loading/index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="4" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.components.modal">
-      <metrics statements="13" coveredstatements="12" conditionals="14" coveredconditionals="9" methods="4" coveredmethods="4"/>
+      <metrics statements="13" coveredstatements="13" conditionals="14" coveredconditionals="12" methods="4" coveredmethods="4"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/components/modal/index.js">
-        <metrics statements="13" coveredstatements="12" conditionals="14" coveredconditionals="9" methods="4" coveredmethods="4"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="2" type="cond" truecount="2" falsecount="2"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.toast">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/components/toast/index.js">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="13" coveredstatements="13" conditionals="14" coveredconditionals="12" methods="4" coveredmethods="4"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="24" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.constants">
@@ -74,104 +64,104 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/containers/footer/index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="4" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.containers.header">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/containers/header/index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="4" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.containers.invitation-content">
-      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/containers/invitation-content/index.js">
-        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
-        <line num="8" count="7" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
         <line num="20" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.containers.invitation-popup-content">
       <metrics statements="67" coveredstatements="67" conditionals="27" coveredconditionals="27" methods="18" coveredmethods="18"/>
       <file name="index.js" path="/Users/leotang/workspace/simple-invite-page/src/containers/invitation-popup-content/index.js">
         <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
-        <line num="8" count="13" type="stmt"/>
-        <line num="10" count="13" type="stmt"/>
-        <line num="11" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="9" type="stmt"/>
-        <line num="16" count="13" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="20" count="13" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="24" count="13" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="16" type="stmt"/>
       </file>
       <file name="invite-form.js" path="/Users/leotang/workspace/simple-invite-page/src/containers/invitation-popup-content/invite-form.js">
         <metrics statements="57" coveredstatements="57" conditionals="21" coveredconditionals="21" methods="13" coveredmethods="13"/>
         <line num="7" count="2" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
-        <line num="28" count="182" type="stmt"/>
-        <line num="29" count="182" type="stmt"/>
-        <line num="30" count="182" type="stmt"/>
-        <line num="32" count="182" type="stmt"/>
-        <line num="33" count="11" type="stmt"/>
-        <line num="34" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="35" count="20" type="stmt"/>
-        <line num="38" count="11" type="stmt"/>
-        <line num="40" count="11" type="stmt"/>
-        <line num="41" count="11" type="stmt"/>
-        <line num="45" count="182" type="stmt"/>
-        <line num="46" count="4" type="stmt"/>
-        <line num="47" count="4" type="stmt"/>
-        <line num="48" count="4" type="stmt"/>
-        <line num="49" count="4" type="stmt"/>
-        <line num="50" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="233" type="stmt"/>
+        <line num="29" count="233" type="stmt"/>
+        <line num="30" count="233" type="stmt"/>
+        <line num="32" count="233" type="stmt"/>
+        <line num="33" count="13" type="stmt"/>
+        <line num="34" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="23" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="40" count="13" type="stmt"/>
+        <line num="41" count="13" type="stmt"/>
+        <line num="45" count="233" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="50" count="15" type="cond" truecount="2" falsecount="0"/>
         <line num="51" count="2" type="stmt"/>
-        <line num="53" count="12" type="stmt"/>
-        <line num="55" count="4" type="stmt"/>
-        <line num="56" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="57" count="3" type="stmt"/>
-        <line num="58" count="3" type="stmt"/>
-        <line num="67" count="2" type="stmt"/>
-        <line num="68" count="2" type="stmt"/>
+        <line num="53" count="15" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="56" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
         <line num="71" count="1" type="stmt"/>
         <line num="72" count="1" type="stmt"/>
-        <line num="77" count="182" type="stmt"/>
-        <line num="79" count="40" type="stmt"/>
-        <line num="80" count="40" type="stmt"/>
-        <line num="81" count="40" type="stmt"/>
-        <line num="82" count="40" type="cond" truecount="3" falsecount="0"/>
-        <line num="85" count="13" type="stmt"/>
-        <line num="89" count="13" type="stmt"/>
-        <line num="93" count="13" type="cond" truecount="2" falsecount="0"/>
-        <line num="96" count="13" type="stmt"/>
-        <line num="100" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="233" type="stmt"/>
+        <line num="79" count="49" type="stmt"/>
+        <line num="80" count="49" type="stmt"/>
+        <line num="81" count="49" type="stmt"/>
+        <line num="82" count="49" type="cond" truecount="3" falsecount="0"/>
+        <line num="85" count="16" type="stmt"/>
+        <line num="89" count="16" type="stmt"/>
+        <line num="93" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="16" type="stmt"/>
+        <line num="100" count="17" type="cond" truecount="2" falsecount="0"/>
         <line num="101" count="1" type="stmt"/>
-        <line num="102" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="102" count="16" type="cond" truecount="2" falsecount="0"/>
         <line num="103" count="1" type="stmt"/>
-        <line num="106" count="14" type="stmt"/>
-        <line num="109" count="40" type="stmt"/>
-        <line num="112" count="182" type="stmt"/>
-        <line num="113" count="159" type="stmt"/>
-        <line num="114" count="159" type="stmt"/>
-        <line num="115" count="159" type="stmt"/>
-        <line num="116" count="159" type="stmt"/>
-        <line num="119" count="182" type="stmt"/>
-        <line num="120" count="16" type="stmt"/>
-        <line num="121" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="17" type="stmt"/>
+        <line num="109" count="49" type="stmt"/>
+        <line num="112" count="233" type="stmt"/>
+        <line num="113" count="207" type="stmt"/>
+        <line num="114" count="207" type="stmt"/>
+        <line num="115" count="207" type="stmt"/>
+        <line num="116" count="207" type="stmt"/>
+        <line num="119" count="233" type="stmt"/>
+        <line num="120" count="19" type="stmt"/>
+        <line num="121" count="19" type="cond" truecount="2" falsecount="0"/>
         <line num="122" count="6" type="stmt"/>
         <line num="123" count="6" type="stmt"/>
         <line num="124" count="6" type="stmt"/>
-        <line num="128" count="182" type="stmt"/>
-        <line num="134" count="546" type="stmt"/>
-        <line num="141" count="159" type="stmt"/>
+        <line num="128" count="233" type="stmt"/>
+        <line num="134" count="699" type="stmt"/>
+        <line num="141" count="207" type="stmt"/>
       </file>
       <file name="success-content.js" path="/Users/leotang/workspace/simple-invite-page/src/containers/invitation-popup-content/success-content.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
       </file>
     </package>
   </project>

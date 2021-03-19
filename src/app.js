@@ -10,7 +10,7 @@ function App() {
       <main className="app-content">
         <InvitationContent />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
