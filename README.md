@@ -2,6 +2,11 @@
 
 In the project directory, you can run:
 
+### Intalll yarn
+If don't install yarn, plz follow this doc to install yarn first.
+https://classic.yarnpkg.com/en/docs/install/#mac-stable
+
+
 ### `yarn install`
 
 To intsall dependencies.
