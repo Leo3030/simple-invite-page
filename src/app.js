@@ -1,4 +1,3 @@
-import "./app.css";
 import Header from "~containers/header";
 import Footer from "~containers/footer";
 import InvitationContent from "~containers/invitation-content";
