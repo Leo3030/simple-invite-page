@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-### Intall Yarn
+### Install Yarn
 If don't install yarn, plz follow this doc to install yarn first.
 https://classic.yarnpkg.com/en/docs/install/#mac-stable
 
